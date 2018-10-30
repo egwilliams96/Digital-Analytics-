@@ -11,7 +11,8 @@
 sink("Project 2 log", append=FALSE, split=TRUE) 
 
 #set working directory and read in data#
-setwd( 'C:/Users/ngrgi/OneDrive/Documents/MS Courses/Quantitative Methods')
+#data can be found in GetHub Repository 
+setwd( 'C:/Users/ewilliams/OneDrive/Documents/MS Courses/Quantitative Methods')
 Invest <- read.csv("GCE.csv", stringsAsFactors = FALSE)
 Unrate <- read.csv("UNRATE.csv", stringsAsFactors = FALSE)
 GDP <- read.csv("GDP.csv", stringsAsFactors = FALSE) 
